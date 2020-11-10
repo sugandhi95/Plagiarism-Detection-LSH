@@ -1,7 +1,7 @@
 # Plagiarism-Detection-LSH
 
 
-The aim of this project is to detection plagiarism in documents using the concept of Locality Sensitive Hashing (LSH). The principle behind this approach is that documents that are "similar" will be hashed to the same buckets with high probability.
+The aim of this project is to detect plagiarism in documents using the concept of Locality Sensitive Hashing (LSH). The principle behind this approach is that documents that are "similar" will be hashed to the same buckets with high probability.
 
 The program takes two sets of documents:
 1. Original documents: Excerpts from Wikipedia articles, susceptible to plagiarism.
@@ -15,3 +15,4 @@ The implementation of the algorithm entails the following:
     positives/negatives are determined
 4. Various combinations of b, r and B are used to obtain optimum results
 
+Using this algorithm, the sample documents that are suspected as having been plagiarised from the original documents, are singled out.
